@@ -59,10 +59,9 @@ hash = SHA256(index | timestamp | data | previous_hash | creator | nonce)
 ├── blockchain_lab.py     # Ядро: Block, Blockchain, calculate_hash
 ├── blockchain_p2p.py     # P2P-сеть на TCP-сокетах: Node, main
 ├── README.md
-└── screenshots/
-    ├── chain_after_scenario_1_pow.png
-    ├── chain_after_fork_resolution.png
-    └── chain_after_scenario_2_pow.png
+├── chain_after_scenario_1_pow.png
+├── chain_after_fork_resolution.png
+└── chain_after_scenario_2_pow.png
 ```
 
 ### `blockchain_lab.py`
